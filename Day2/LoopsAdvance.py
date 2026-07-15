@@ -30,16 +30,16 @@ while True:
     print("4 for Exit")
     action=input("Enter your action: ")
     action=int(action)
-    if choice == "1":
+    if action == 1:
         print("Your balance is $1000.")
-    elif choice == "2":
+    elif action == 2:
         amount = float(input("Enter the amount to deposit: "))
         print(f"${amount} deposited successfully.")
-    elif choice == "3":
+    elif action == 3:
         amount = float(input("Enter the amount to withdraw: "))
         print(f"${amount} withdrawn successfully.")
-    elif choice == "4":
+    elif action == 4:
         print("Thank you for using the ATM.")
         break
     else:
-        print("Invalid choice. Please try again.")
+        print("Invalid action. Please try again.")
