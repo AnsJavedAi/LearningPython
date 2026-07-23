@@ -5,7 +5,7 @@ while True:
           (1) Add Contact
           (2) View Contacts
           (3) Search Contact
-          (4) Delete Conatact
+          (4) Delete Contact
           (5) Exit''')
     choice = input("Enter your choice (1-5): ")
     if choice == "1":
